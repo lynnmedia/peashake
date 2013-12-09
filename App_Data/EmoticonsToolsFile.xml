@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <tools name="MainToolbar">
+    <tool name="Emoticons" Name="Emoticons" type="SplitButton" ItemsPerRow="5" PopupWidth="170px" PopupHeight="117px">
+      <item name="&lt;img src='../Images/chat/icons/1.gif' />" value="../Images/chat/icons/1.gif" />
+      <item name="&lt;img src='../Images/chat/icons/2.gif' />" value="../Images/chat/icons/2.gif" />
+      <item name="&lt;img src='../Images/chat/icons/3.gif' />" value="../Images/chat/icons/3.gif" />
+      <item name="&lt;img src='../Images/chat/icons/4.gif' />" value="../Images/chat/icons/4.gif" />
+      <item name="&lt;img src='../Images/chat/icons/5.gif' />" value="../Images/chat/icons/5.gif" />
+      <item name="&lt;img src='../Images/chat/icons/6.gif' />" value="../Images/chat/icons/6.gif" />
+      <item name="&lt;img src='../Images/chat/icons/7.gif' />" value="../Images/chat/icons/7.gif" />
+      <item name="&lt;img src='../Images/chat/icons/8.gif' />" value="../Images/chat/icons/8.gif" />
+      <item name="&lt;img src='../Images/chat/icons/9.gif' />" value="../Images/chat/icons/9.gif" />
+      <item name="&lt;img src='../Images/chat/icons/10.gif' />" value="../Images/chat/icons/10.gif" />
+      <item name="&lt;img src='../Images/chat/icons/11.gif' />" value="../Images/chat/icons/11.gif" />
+      <item name="&lt;img src='../Images/chat/icons/12.gif' />" value="../Images/chat/icons/12.gif" />
+      <item name="&lt;img src='../Images/chat/icons/13.gif' />" value="../Images/chat/icons/13.gif" />
+      <item name="&lt;img src='../Images/chat/icons/14.gif' />" value="../Images/chat/icons/14.gif" />
+      <item name="&lt;img src='../Images/chat/icons/15.gif' />" value="../Images/chat/icons/15.gif" />
+      <item name="&lt;img src='../Images/chat/icons/16.gif' />" value="../Images/chat/icons/16.gif" />
+      <item name="&lt;img src='../Images/chat/icons/17.gif' />" value="../Images/chat/icons/17.gif" />
+      <item name="&lt;img src='../Images/chat/icons/18.gif' />" value="../Images/chat/icons/18.gif" />
+      <item name="&lt;img src='../Images/chat/icons/19.gif' />" value="../Images/chat/icons/19.gif" />
+      <item name="&lt;img src='../Images/chat/icons/20.gif' />" value="../Images/chat/icons/20.gif" />
+      <item name="&lt;img src='../Images/chat/icons/21.gif' />" value="../Images/chat/icons/21.gif" />
+      <item name="&lt;img src='../Images/chat/icons/22.gif' />" value="../Images/chat/icons/22.gif" />
+      <item name="&lt;img src='../Images/chat/icons/23.gif' />" value="../Images/chat/icons/23.gif" />
+      <item name="&lt;img src='../Images/chat/icons/24.gif' />" value="../Images/chat/icons/24.gif" />
+      <item name="&lt;img src='../Images/chat/icons/25.gif' />" value="../Images/chat/icons/25.gif" />
+    </tool>
+  </tools>
+</root>

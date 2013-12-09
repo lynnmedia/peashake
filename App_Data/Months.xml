@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item Value="1" Text="January" />
+  <Item Value="2" Text="February" />
+  <Item Value="3" Text="March" />
+  <Item Value="4" Text="April" />
+  <Item Value="5" Text="May" />
+  <Item Value="6" Text="June" />
+  <Item Value="7" Text="July" />
+  <Item Value="8" Text="August" />
+  <Item Value="9" Text="September" />
+  <Item Value="10" Text="October" />
+  <Item Value="11" Text="November" />
+  <Item Value="12" Text="December" />
+</Items>

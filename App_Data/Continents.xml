@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item Value="1" Text="North America" />
+  <Item Value="2" Text="South America" />
+  <Item Value="3" Text="Europe" />
+  <Item Value="4" Text="Asia" />
+  <Item Value="5" Text="Africa" />
+  <Item Value="6" Text="Oceania" />
+  <Item Value="7" Text="Antarctica" />
+</Items>

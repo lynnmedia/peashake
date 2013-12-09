@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Appointments>
+  <NextID>45</NextID>
+  <Resources>
+    <Calendar>
+      <Key>1</Key>
+      <Text>Luma Room</Text>
+    </Calendar>
+    <Calendar>
+      <Key>2</Key>
+      <Text>Peashake Room</Text>
+    </Calendar>
+    <Calendar>
+      <Key>3</Key>
+      <Text>Comedy</Text>
+    </Calendar>
+    <Calendar>
+      <Key>4</Key>
+      <Text>Fight Club</Text>
+    </Calendar>
+  </Resources>
+  <Appointment>
+    <ID>1</ID>
+    <Subject>Luma DJ 1</Subject>
+    <Start>2011-07-02T07:00Z</Start>
+    <End>2011-07-02T08:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110702T070000Z
+DTEND:20110702T080000Z
+RRULE:FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=2
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>2</ID>
+    <Subject>Luma DJ 2</Subject>
+    <Start>2011-06-05T09:00Z</Start>
+    <End>2011-06-05T10:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110605T090000Z
+DTEND:20110605T100000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>3</ID>
+    <Subject>TDD Presentation</Subject>
+    <Start>2011-07-03T08:00Z</Start>
+    <End>2011-07-03T09:00Z</End>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>4</ID>
+    <Subject>Luma DJ 3</Subject>
+    <Start>2011-07-03T09:00Z</Start>
+    <End>2011-07-03T10:00Z</End>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>5</ID>
+    <Subject>Luma DJ 4</Subject>
+    <Start>2011-07-02T11:00Z</Start>
+    <End>2011-07-02T12:00Z</End>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>6</ID>
+    <Subject>Luma DJ 5</Subject>
+    <Start>2011-07-01T21:00Z</Start>
+    <End>2011-07-01T22:00Z</End>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>7</ID>
+    <Subject>Luma DJ 6</Subject>
+    <Start>2011-07-04T07:00Z</Start>
+    <End>2011-07-04T08:00Z</End>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>8</ID>
+    <Subject>Luma DJ 7</Subject>
+    <Start>2011-07-05T08:00Z</Start>
+    <End>2011-07-05T09:00Z</End>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>9</ID>
+    <Subject>Luma DJ 8</Subject>
+    <Start>2011-07-06T07:00Z</Start>
+    <End>2011-07-06T08:00Z</End>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>12</ID>
+    <Subject>Luma DJ 9</Subject>
+    <Start>2011-06-01T12:00Z</Start>
+    <End>2011-06-01T13:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110601T120000Z
+DTEND:20110601T130000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=TH;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>13</ID>
+    <Subject>Luma DJ 10</Subject>
+    <Start>2011-06-25T21:00Z</Start>
+    <End>2011-06-25T22:00Z</End>
+  </Appointment>
+  <Appointment>
+    <ID>14</ID>
+    <Subject>Luma DJ 11</Subject>
+    <Start>2011-06-26T11:00Z</Start>
+    <End>2011-06-26T12:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110626T110000Z
+DTEND:20110626T120000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="1" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>16</ID>
+    <Subject>Peashake DJ 1</Subject>
+    <Start>2011-07-08T21:00Z</Start>
+    <End>2011-07-08T22:00Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>17</ID>
+    <Subject>Peashake DJ 2</Subject>
+    <Start>2011-07-01T21:00Z</Start>
+    <End>2011-07-01T22:00Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>18</ID>
+    <Subject>Peashake DJ 3</Subject>
+    <Start>2011-07-09T07:00Z</Start>
+    <End>2011-07-09T08:00Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>19</ID>
+    <Subject>Peashake DJ 4</Subject>
+    <Start>2011-07-11T09:00Z</Start>
+    <End>2011-07-11T10:00Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>20</ID>
+    <Subject>Peashake DJ 5</Subject>
+    <Start>2011-06-06T11:00Z</Start>
+    <End>2011-06-06T12:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110606T110000Z
+DTEND:20110606T120000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TU;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>21</ID>
+    <Subject>Peashake DJ 6</Subject>
+    <Start>2011-07-02T07:00Z</Start>
+    <End>2011-07-02T08:30Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>22</ID>
+    <Subject>Peashake DJ 7</Subject>
+    <Start>2011-07-02T14:00Z</Start>
+    <End>2011-07-02T15:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110702T140000Z
+DTEND:20110702T150000Z
+RRULE:FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=2
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>23</ID>
+    <Subject>Peashake DJ 8</Subject>
+    <Start>2011-07-13T11:00Z</Start>
+    <End>2011-07-13T12:00Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>24</ID>
+    <Subject>Peashake DJ 9</Subject>
+    <Start>2011-06-27T09:00Z</Start>
+    <End>2011-06-27T10:00Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>25</ID>
+    <Subject>Peashake DJ 10</Subject>
+    <Start>2011-06-30T12:00Z</Start>
+    <End>2011-06-30T13:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110630T120000Z
+DTEND:20110630T130000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=FR;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>26</ID>
+    <Subject>Comedy Club Marathon</Subject>
+    <Start>2011-06-28T21:00Z</Start>
+    <End>2011-06-29T21:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110628T210000Z
+DTEND:20110629T210000Z
+RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTHDAY=28;BYDAY=MO,TU,WE,TH,FR,SA,SU;BYMONTH=1
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="3" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>27</ID>
+    <Subject>Comedy Club 2</Subject>
+    <Start>2011-07-02T05:00Z</Start>
+    <End>2011-07-02T06:00Z</End>
+    <Resources>
+      <Calendar Key="3" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>28</ID>
+    <Subject>Comedy Club 3</Subject>
+    <Start>2011-06-27T14:00Z</Start>
+    <End>2011-06-27T15:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110627T140000Z
+DTEND:20110627T150000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=TU;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="3" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>29</ID>
+    <Subject>Comedy Club 4</Subject>
+    <Start>2011-07-06T17:00Z</Start>
+    <End>2011-07-06T18:00Z</End>
+    <Resources>
+      <Calendar Key="3" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>30</ID>
+    <Subject>Comedy Club 5</Subject>
+    <Start>2011-06-28T06:00Z</Start>
+    <End>2011-06-28T07:00Z</End>
+    <Resources>
+      <Calendar Key="3" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>31</ID>
+    <Subject>Comedy Club 6</Subject>
+    <Start>2011-06-29T16:00Z</Start>
+    <End>2011-06-29T17:00Z</End>
+    <Resources>
+      <Calendar Key="3" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>32</ID>
+    <Subject>Fight Club 1</Subject>
+    <Start>2011-06-26T10:00Z</Start>
+    <End>2011-06-26T11:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110626T100000Z
+DTEND:20110626T110000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=MO;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>33</ID>
+    <Subject>Fight Club 2</Subject>
+    <Start>2011-06-29T11:00Z</Start>
+    <End>2011-06-29T12:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110629T110000Z
+DTEND:20110629T120000Z
+RRULE:FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=29
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>34</ID>
+    <Subject>Fight Club 3</Subject>
+    <Start>2011-06-27T12:00Z</Start>
+    <End>2011-06-27T13:00Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>35</ID>
+    <Subject>Fight Club 4</Subject>
+    <Start>2011-07-04T09:00Z</Start>
+    <End>2011-07-04T10:00Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>36</ID>
+    <Subject>Fight Club 5</Subject>
+    <Start>2011-07-12T08:00Z</Start>
+    <End>2011-07-12T09:00Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>37</ID>
+    <Subject>Fight Club 6</Subject>
+    <Start>2011-07-10T12:00Z</Start>
+    <End>2011-07-10T13:00Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>38</ID>
+    <Subject>Fight Club 7</Subject>
+    <Start>2011-07-02T11:00Z</Start>
+    <End>2011-07-02T12:30Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>39</ID>
+    <Subject>Fight Club 8</Subject>
+    <Start>2011-06-28T10:00Z</Start>
+    <End>2011-06-28T11:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110628T100000Z
+DTEND:20110628T110000Z
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=WE;WKST=MO
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>40</ID>
+    <Subject>Fight Club 9</Subject>
+    <Start>2011-06-30T07:00Z</Start>
+    <End>2011-06-30T08:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110630T070000Z
+DTEND:20110630T080000Z
+RRULE:FREQ=MONTHLY;INTERVAL=4;BYMONTHDAY=30
+]]></RecurrenceRule>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>41</ID>
+    <Subject>Peashake Room 11</Subject>
+    <Start>2011-07-10T08:00Z</Start>
+    <End>2011-07-10T09:00Z</End>
+    <Resources>
+      <Calendar Key="2" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>42</ID>
+    <Subject>Fight Club 10</Subject>
+    <Start>2011-06-26T06:30Z</Start>
+    <End>2011-06-26T07:30Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>43</ID>
+    <Subject>Fight Club 11</Subject>
+    <Start>2011-06-29T08:00Z</Start>
+    <End>2011-06-29T09:00Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+  <Appointment>
+    <ID>44</ID>
+    <Subject>Fight Club 12</Subject>
+    <Start>2011-07-06T11:00Z</Start>
+    <End>2011-07-06T12:00Z</End>
+    <Resources>
+      <Calendar Key="4" />
+    </Resources>
+  </Appointment>
+</Appointments>

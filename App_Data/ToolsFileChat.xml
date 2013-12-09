@@ -1,0 +1,118 @@
+<root>	
+	<tools isribbon = "false">
+		<tool name="Bold" shortcut="CTRL+B"/>
+		<tool name="Italic" shortcut="CTRL+I"/>
+		<tool name="Underline" shortcut="CTRL+U"/>
+	</tools>
+	<tools name="DropdownToolbar" isribbon="false">
+		<tool name="FontName"/>
+		<tool name="FontSize"/>
+    <tool name="Emoticons" Name="Emoticons" type="SplitButton" iconurl="~/Emoticons/1.GIF" ItemsPerRow="4" PopupWidth="170px" PopupHeight="200px">
+      <item name="&lt;img src='./Emoticons/1.gif' />" value="./Emoticons/1.gif" />
+      <item name="&lt;img src='./Emoticons/2.gif' />" value="./Emoticons/2.gif" />
+      <item name="&lt;img src='./Emoticons/3.gif' />" value="./Emoticons/3.gif" />
+      <item name="&lt;img src='./Emoticons/4.gif' />" value="./Emoticons/4.gif" />
+      <item name="&lt;img src='./Emoticons/5.gif' />" value="./Emoticons/5.gif" />
+      <item name="&lt;img src='./Emoticons/6.gif' />" value="./Emoticons/6.gif" />
+      <item name="&lt;img src='./Emoticons/7.gif' />" value="./Emoticons/7.gif" />
+      <item name="&lt;img src='./Emoticons/8.gif' />" value="./Emoticons/8.gif" />
+      <item name="&lt;img src='./Emoticons/9.gif' />" value="./Emoticons/9.gif" />
+      <item name="&lt;img src='./Emoticons/10.gif' />" value="./Emoticons/10.gif" />
+      <item name="&lt;img src='./Emoticons/11.gif' />" value="./Emoticons/11.gif" />
+      <item name="&lt;img src='./Emoticons/12.gif' />" value="./Emoticons/12.gif" />
+      <item name="&lt;img src='./Emoticons/13.gif' />" value="./Emoticons/13.gif" />
+      <item name="&lt;img src='./Emoticons/14.gif' />" value="./Emoticons/14.gif" />
+      <item name="&lt;img src='./Emoticons/15.gif' />" value="./Emoticons/15.gif" />
+      <item name="&lt;img src='./Emoticons/16.gif' />" value="./Emoticons/16.gif" />
+      <item name="&lt;img src='./Emoticons/17.gif' />" value="./Emoticons/17.gif" />
+      <item name="&lt;img src='./Emoticons/18.gif' />" value="./Emoticons/18.gif" />
+      <item name="&lt;img src='./Emoticons/19.gif' />" value="./Emoticons/19.gif" />
+      <item name="&lt;img src='./Emoticons/20.gif' />" value="./Emoticons/20.gif" />
+      <item name="&lt;img src='./Emoticons/21.gif' />" value="./Emoticons/21.gif" />
+      <item name="&lt;img src='./Emoticons/22.gif' />" value="./Emoticons/22.gif" />
+      <item name="&lt;img src='./Emoticons/23.gif' />" value="./Emoticons/23.gif" />
+      <item name="&lt;img src='./Emoticons/24.gif' />" value="./Emoticons/24.gif" />
+      <item name="&lt;img src='./Emoticons/25.gif' />" value="./Emoticons/25.gif" />
+      <item name="&lt;img src='./Emoticons/26.gif' />" value="./Emoticons/26.gif" />
+      <item name="&lt;img src='./Emoticons/27.gif' />" value="./Emoticons/27.gif" />
+      <item name="&lt;img src='./Emoticons/28.gif' />" value="./Emoticons/28.gif" />
+      <item name="&lt;img src='./Emoticons/29.gif' />" value="./Emoticons/29.gif" />
+      <item name="&lt;img src='./Emoticons/30.gif' />" value="./Emoticons/30.gif" />
+      <item name="&lt;img src='./Emoticons/31.gif' />" value="./Emoticons/31.gif" />
+      <item name="&lt;img src='./Emoticons/32.gif' />" value="./Emoticons/32.gif" />
+      <item name="&lt;img src='./Emoticons/33.gif' />" value="./Emoticons/33.gif" />
+      <item name="&lt;img src='./Emoticons/34.gif' />" value="./Emoticons/34.gif" />
+      <item name="&lt;img src='./Emoticons/35.gif' />" value="./Emoticons/35.gif" />
+      <item name="&lt;img src='./Emoticons/36.gif' />" value="./Emoticons/36.gif" />
+      <item name="&lt;img src='./Emoticons/37.gif' />" value="./Emoticons/37.gif" />
+      <item name="&lt;img src='./Emoticons/38.gif' />" value="./Emoticons/38.gif" />
+      <item name="&lt;img src='./Emoticons/39.gif' />" value="./Emoticons/39.gif" />
+      <item name="&lt;img src='./Emoticons/40.gif' />" value="./Emoticons/40.gif" />
+      <item name="&lt;img src='./Emoticons/41.gif' />" value="./Emoticons/41.gif" />
+      <item name="&lt;img src='./Emoticons/42.gif' />" value="./Emoticons/42.gif" />
+      <item name="&lt;img src='./Emoticons/43.gif' />" value="./Emoticons/43.gif" />
+      <item name="&lt;img src='./Emoticons/44.gif' />" value="./Emoticons/44.gif" />
+      <item name="&lt;img src='./Emoticons/45.gif' />" value="./Emoticons/45.gif" />
+      <item name="&lt;img src='./Emoticons/46.gif' />" value="./Emoticons/46.gif" />
+      <item name="&lt;img src='./Emoticons/47.gif' />" value="./Emoticons/47.gif" />
+      <item name="&lt;img src='./Emoticons/48.gif' />" value="./Emoticons/48.gif" />
+      <item name="&lt;img src='./Emoticons/49.gif' />" value="./Emoticons/49.gif" />
+      <item name="&lt;img src='./Emoticons/50.gif' />" value="./Emoticons/50.gif" />
+      <item name="&lt;img src='./Emoticons/51.gif' />" value="./Emoticons/51.gif" />
+      <item name="&lt;img src='./Emoticons/52.gif' />" value="./Emoticons/52.gif" />
+      <item name="&lt;img src='./Emoticons/53.gif' />" value="./Emoticons/53.gif" />
+      <item name="&lt;img src='./Emoticons/54.gif' />" value="./Emoticons/54.gif" />
+      <item name="&lt;img src='./Emoticons/55.gif' />" value="./Emoticons/55.gif" />
+      <item name="&lt;img src='./Emoticons/56.gif' />" value="./Emoticons/56.gif" />
+      <item name="&lt;img src='./Emoticons/57.gif' />" value="./Emoticons/57.gif" />
+      <item name="&lt;img src='./Emoticons/58.gif' />" value="./Emoticons/58.gif" />
+      <item name="&lt;img src='./Emoticons/59.gif' />" value="./Emoticons/59.gif" />
+      <item name="&lt;img src='./Emoticons/60.gif' />" value="./Emoticons/60.gif" />
+      <item name="&lt;img src='./Emoticons/61.gif' />" value="./Emoticons/61.gif" />
+      <item name="&lt;img src='./Emoticons/62.gif' />" value="./Emoticons/62.gif" />
+      <item name="&lt;img src='./Emoticons/63.gif' />" value="./Emoticons/63.gif" />
+      <item name="&lt;img src='./Emoticons/64.gif' />" value="./Emoticons/64.gif" />
+      <item name="&lt;img src='./Emoticons/65.gif' />" value="./Emoticons/65.gif" />
+      <item name="&lt;img src='./Emoticons/66.gif' />" value="./Emoticons/66.gif" />
+      <item name="&lt;img src='./Emoticons/67.gif' />" value="./Emoticons/67.gif" />
+      <item name="&lt;img src='./Emoticons/68.gif' />" value="./Emoticons/68.gif" />
+      <item name="&lt;img src='./Emoticons/69.gif' />" value="./Emoticons/69.gif" />
+      <item name="&lt;img src='./Emoticons/70.gif' />" value="./Emoticons/70.gif" />
+      <item name="&lt;img src='./Emoticons/71.gif' />" value="./Emoticons/71.gif" />
+      <item name="&lt;img src='./Emoticons/72.gif' />" value="./Emoticons/72.gif" />
+      <item name="&lt;img src='./Emoticons/73.gif' />" value="./Emoticons/73.gif" />
+      <item name="&lt;img src='./Emoticons/74.gif' />" value="./Emoticons/74.gif" />
+      <item name="&lt;img src='./Emoticons/75.gif' />" value="./Emoticons/75.gif" />
+      <item name="&lt;img src='./Emoticons/76.gif' />" value="./Emoticons/76.gif" />
+      <item name="&lt;img src='./Emoticons/77.gif' />" value="./Emoticons/77.gif" />
+      <item name="&lt;img src='./Emoticons/78.gif' />" value="./Emoticons/78.gif" />
+      <item name="&lt;img src='./Emoticons/79.gif' />" value="./Emoticons/79.gif" />
+      <item name="&lt;img src='./Emoticons/80.gif' />" value="./Emoticons/80.gif" />
+      <item name="&lt;img src='./Emoticons/81.gif' />" value="./Emoticons/81.gif" />
+      <item name="&lt;img src='./Emoticons/82.gif' />" value="./Emoticons/82.gif" />
+      <item name="&lt;img src='./Emoticons/83.gif' />" value="./Emoticons/83.gif" />
+      <item name="&lt;img src='./Emoticons/84.gif' />" value="./Emoticons/84.gif" />
+      <item name="&lt;img src='./Emoticons/85.gif' />" value="./Emoticons/85.gif" />
+      <item name="&lt;img src='./Emoticons/86.gif' />" value="./Emoticons/86.gif" />
+      <item name="&lt;img src='./Emoticons/87.gif' />" value="./Emoticons/87.gif" />
+      <item name="&lt;img src='./Emoticons/88.gif' />" value="./Emoticons/88.gif" />
+      <item name="&lt;img src='./Emoticons/89.gif' />" value="./Emoticons/89.gif" />
+      <item name="&lt;img src='./Emoticons/90.gif' />" value="./Emoticons/90.gif" />
+      <item name="&lt;img src='./Emoticons/91.gif' />" value="./Emoticons/91.gif" />
+      <item name="&lt;img src='./Emoticons/92.gif' />" value="./Emoticons/92.gif" />
+      <item name="&lt;img src='./Emoticons/93.gif' />" value="./Emoticons/93.gif" />
+      <item name="&lt;img src='./Emoticons/94.gif' />" value="./Emoticons/94.gif" />
+    </tool>
+  </tools>
+  <snippets>
+	</snippets>
+	<symbols></symbols>	
+	<fontNames>	</fontNames>	
+	<fontSizes></fontSizes>
+	<colors></colors>	
+	<paragraphs></paragraphs>
+	<classes></classes>
+	<dialogParameters></dialogParameters>
+	<languages></languages>
+	<contextMenus></contextMenus>
+</root>

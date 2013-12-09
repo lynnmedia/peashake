@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item Value="VISA" Text="VISA" />
+  <Item Value="MasterCard" Text="MasterCard" />
+  <Item Value="American Express" Text="American Express" />
+  <Item Value="Discover" Text="Discover" />
+</Items>

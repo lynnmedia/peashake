@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item Value="Alltel" Text="Alltel" />
+  <Item Value="Ameritech" Text="Ameritech" />
+  <Item Value="ATT" Text="ATT" />
+  <Item Value="Bellsouth" Text="Bellsouth" />
+  <Item Value="Boost" Text="Boost" />
+  <Item Value="CellularOne" Text="CellularOne" />
+  <Item Value="CellularOneMMS" Text="CellularOne MMS" />
+  <Item Value="Cingular" Text="Cingular" />
+  <Item Value="EdgeWireless" Text="Edge Wireless" />
+  <Item Value="MetroPCS" Text="MetroPCS" />
+  <Item Value="Nextel" Text="Nextel" />
+  <Item Value="O2" Text="O2" />
+  <Item Value="Orange" Text="Orange" />
+  <Item Value="Qwest" Text="Qwest" />
+  <Item Value="RogersWireless" Text="Rogers Wireless" />
+  <Item Value="SprintPCS" Text="Sprint PCS" />
+  <Item Value="T-Mobile" Text="T-Mobile" />
+  <Item Value="Teleflip" Text="Teleflip" />
+  <Item Value="TelusMobility" Text="Telus Mobility" />
+  <Item Value="USCellular" Text="US Cellular" />
+  <Item Value="Verizon" Text="Verizon" />
+  <Item Value="VirginMobile" Text="Virgin Mobile" />
+</Items>

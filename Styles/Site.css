@@ -1,0 +1,1596 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+body
+{ 
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color:Black;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:12px; 
+    color:White;
+    overflow:hidden; 
+    font-style:normal; 
+}
+
+body, td, th, input {}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #3cac7a;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+#windowZone 
+{
+    position:absolute;
+    height:900px;
+    width:1440px;
+    top:0px;
+    left:0px;
+}
+
+#dayRoomWall 
+{ 
+    position:absolute; 
+    width:1440px; 
+    height:900px; 
+    z-index:1; 
+    left:0px; 
+    top:0px; 
+    overflow:hidden; 
+    display:none; 
+}
+
+#nightClubWall 
+{ 
+	width:4110px; 
+    height:900px; 
+    overflow:hidden; 
+    display:block;
+    background-image:url("../Images/Bkgs/3.jpg");
+    background-repeat:no-repeat;
+    position:relative;  
+    z-index:1; 
+    left:0px; 
+    top:0px; 
+}
+
+#TVMWHolder 
+{ 
+    position:absolute; 
+    width:3994px; 
+    height:500px; 
+    z-index:1; 
+    left: 460px; 
+    top:0px; 
+    background-color: transparent; 
+    display:none;
+}
+
+#TVMW01 
+{
+    position:relative; 
+    width:384px; 
+    height:200px; 
+    background-color:#000; 
+    left: 26px; 
+    top: 25px; 
+    border:1px inset #80771a;
+}
+
+#TVMW01Holder 
+{ 
+    position:relative; 
+    width:436px; 
+    height:248px; 
+    left: 33px; 
+    top: 207px; 
+    background-color: #080808; 
+    float:left; 
+    border:1px inset #f0e030;
+    display:none;
+}
+
+#TVMW02
+{
+    position:relative; 
+    width:384px; 
+    height:200px; 
+    background-color:#000; 
+    left: 47px; 
+    top: 17px; 
+    border:1px inset #281c72;
+}
+
+#TVMW02Holder 
+{ 
+    position:relative; 
+    width:478px; 
+    height:234px; 
+    left: 490px; 
+    top: 146px; 
+    background-color: #080808; 
+    float:left; 
+    border:1px inset #4b30f0;
+    display:none;
+}
+
+#TVMW03
+{
+    position:relative; 
+    width:384px; 
+    height:200px; 
+    background-color:#000; 
+    left: 43px; 
+    top: 40px; 
+    border:1px inset #216611;
+}
+
+#TVMW03Holder 
+{ 
+    position:relative; 
+    width:470px; 
+    height:280px; 
+    left: 1218px; 
+    top: 150px; 
+    background-color: #080808; 
+    float:left; 
+    border:1px inset #54f030;
+    display:none;
+}
+
+#TVMW04
+{
+    position:relative; 
+    width:384px; 
+    height:200px; 
+    background-color:#000; 
+    left: 86px; 
+    top: 53px; 
+    border:1px inset #761746;
+}
+
+#TVMW04Holder 
+{ 
+    position:relative; 
+    width:546px; 
+    height:306px; 
+    left: 1578px; 
+    top: 190px; 
+    background-color: #080808; 
+    float:left; 
+    border:1px inset #f0308f;
+    display:none;
+}
+
+#TVDRHolder 
+{ 
+    position:absolute; 
+    width:1440px; 
+    height:900px; 
+    z-index:1; 
+    left:0px; 
+    top:0px; 
+    background-color: transparent; 
+    display:none;
+}
+
+#TVDR01 
+{
+    position:relative; 
+    width:384px; 
+    height:200px; 
+    background-color:#000; 
+    left:21px; 
+    top:31px; 
+    border:1px inset #281c72;
+}
+
+#TVDR01Holder 
+{ 
+    position:relative; 
+    width:426px; 
+    height:262px; 
+    left:778px; 
+    top:182px; 
+    background-color:#080808; 
+    float:left; 
+    border:1px inset #4b30f0;
+    display:none;
+}
+
+#TVDR02 
+{
+    position:relative; 
+    width:420px; 
+    height:101px; 
+    background-color:#000; 
+    left:5px; 
+    top:82px; 
+}
+
+#TVDR02Holder 
+{ 
+    position:relative; 
+    width:430px; 
+    height:275px; 
+    left:312px; 
+    top:167px; 
+    background-color:#080808; 
+    float:left; 
+    display:none;
+}
+
+#TVDR03 
+{
+    position:relative; 
+    width:283px; 
+    height:290px; 
+    background-color:white; 
+    left:108px; 
+    top:4px; 
+}
+
+#TVDR03Holder 
+{ 
+    position:relative; 
+    width:500px; 
+    height:298px; 
+    left:169px; 
+    top:226px; 
+    background-color:white; 
+    float:left; 
+    border:3px inset #ff8a00;
+    display:none;
+}
+
+.page
+{
+    width: 1440px;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.main
+{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+}
+
+.footer
+{
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+.paper
+{
+    background: #fff;
+    padding: 20px 10px 10px 10px;
+    margin: 5px;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -khtml-border-radius:5px;
+    color:#000;
+}
+
+.blackpaper
+{
+    background: #000;
+    padding: 20px 10px 10px 10px;
+    margin: 5px;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -khtml-border-radius:5px;
+    color:#fff;
+    font-size:12px; 
+}
+
+#MessageScrollBox
+{
+    position:absolute;
+    top:-4px;
+    width:1440px;
+    height:25px;
+    background-color:transparent;
+    display:block;
+    z-index:2;
+}
+        
+.MessageScrollBoxText
+{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight:bold;
+    color:inherit;
+}
+        
+.friend-picture
+{
+    float: left; 
+    width: 34px; 
+    height: 30px;
+    z-index: 10001;
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+
+.friend-picture a
+{
+    text-decoration: none;
+}
+
+#chatterGuests { width: 100%; height: 32px; background: black; color: white; }
+
+#friendBar
+{
+    position:absolute;
+    left:50px;
+    bottom:110px;
+    width:90%;
+    height:40px;
+    margin:2px;
+    background-color:transparent;
+    display:none;
+    z-index:10000;
+}
+        
+#localWomen
+{
+    position:absolute;
+    width:73px;
+    height:1000px;
+    left:10px;
+    top:0px;
+    z-index: 2000;
+    opacity:0.0; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); 
+    -moz-opacity:0.0;
+    -khtml-opacity:0.0;
+    display:block;
+}
+
+#localMen
+{
+    position:absolute;
+    height:1000px;
+    width:73px;
+    right:10px;
+    top:0px;
+    z-index: 2000;
+    opacity:0.0; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); 
+    -moz-opacity:0.0;
+    -khtml-opacity:0.0;
+    display:block;
+}
+
+.local-picture
+{
+    float: left; 
+    width: 69px; 
+    height: 52px;
+    padding: 0;
+    margin: 0;
+    background-color:transparent;
+}
+
+.local-picture a
+{
+    text-decoration: none;
+}
+
+.local-picture a:visited
+{
+    background-color:transparent;
+    text-decoration: none;
+}
+
+.local-picture a:hover
+{
+    background-color:transparent;
+    text-decoration: none;
+}
+
+.local-picture a:active
+{
+    background-color:transparent;
+    text-decoration: none;
+}
+
+#announcementPanel
+{
+    position:absolute;
+    width:487px;
+    height:268px;
+    left:480px;
+    top:80px;
+    background-color:White;
+    display:none;
+    border: 1px white solid;
+    -moz-border-radius:25px; 
+    -webkit-border-radius:25px; 
+    -khtml-border-radius:25px;
+    opacity:0.80; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
+    -moz-opacity:0.80;
+    -khtml-opacity:0.80;
+    z-index: 15000;
+}
+
+#comingSoonPanel
+{
+    position:absolute;
+    width:241px;
+    height:285px;
+    left:490px;
+    bottom:150px;
+    display:none;
+    z-index: 5000;
+}
+
+#noticePanel
+{
+    position:absolute;
+    width:556px;
+    height:256px;
+    left:390px;
+    top:10px;
+    display:none;
+    z-index: 5000;
+}
+
+#messageView
+{
+    background-color:White;
+    z-index: 2000;
+}
+
+#concierge
+{
+    z-index:1500;
+    position:absolute;
+    width:100%;
+    height:124px;
+    left:0px;
+    bottom:-5px;
+    padding: 8px 0px 0px 0px;
+    text-align: center;
+    background-image:url('../Images/Icons/Concierge2.png');
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+
+#conciergeServices
+{ 
+    z-index:15000; 
+    position:absolute; 
+    width:96px; 
+    height:45px; 
+    left: 332px; 
+    bottom: 29px; 
+    float:left;
+    background-color:white;
+    padding:2px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    opacity:0.88; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=88); 
+    -moz-opacity:0.88;
+    -khtml-opacity:0.88;
+    -khtml-border-radius:8px;
+    -moz-border-radius: 8px; 
+    -webkit-border-radius: 8px; 
+}
+
+#conciergeRooms
+{ 
+    z-index:15000; 
+    position:absolute; 
+    width:140px; 
+    height:45px; 
+    left: 682px; 
+    bottom: 29px; 
+    float:left; 
+    padding:2px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    background-color:white;
+    opacity:0.88; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=88); 
+    -moz-opacity:0.88;
+    -khtml-opacity:0.88;
+    -khtml-border-radius:6px;
+    -moz-border-radius: 6px; 
+    -webkit-border-radius: 6px; 
+}
+
+.conciergeButton
+{ 
+    color:transparent;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    position:fixed; 
+    width:620px; 
+    height:52px; 
+    left: 410px; 
+    bottom: 0px;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.readOnly 
+{
+    width: 260px;
+    border: 0px;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px; 
+    -khtml-border-radius:4px;
+}
+
+input.textEntry 
+{
+    width: 260px;
+    font-size:14px;
+    border: 2px inset #ddd;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px; 
+    -khtml-border-radius:4px;
+}
+
+input.textEntryLogin
+{
+    font-size:14px;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px; 
+    -khtml-border-radius:4px;
+    background-color:transparent;
+    border: 1px solid #3cac7a;
+    color:#fff;
+    margin:0px;
+}
+
+input.passwordEntry 
+{
+    width: 260px;
+    border: 1px solid #ccc;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px; 
+    -khtml-border-radius:4px;
+}
+
+div.accountInfo
+{
+    width: 100%;
+    margin:10px;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+#prereg
+{
+    position: absolute;
+    z-index:100;
+    left:5px;
+    top:150px;
+    width:550px;
+    height:280px;
+    margin:0px;
+    background: #272725;  
+    padding: 8px; 
+    color: #000; 
+    font-weight: bold; 
+    border: 0px solid #272725;
+    opacity:0.96; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=96);
+    -moz-opacity:0.96;
+    -khtml-opacity:0.96;
+    -moz-border-radius:8px; 
+    -webkit-border-radius:8px; 
+    -khtml-border-radius:8px;
+    font:normal; 
+    font-size:10px;
+}
+
+#loginAccordion
+{
+    position: absolute;
+    z-index:100;
+    left:5px;
+    top:21px;
+    width:550px;
+    height:250px;
+    margin:0px;
+    background: #272725;  
+    padding:3px; 
+    color: #000; 
+    font-weight: bold; 
+    border: 0px solid #272725;
+    opacity:0.96; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=96);
+    -moz-opacity:0.96;
+    -khtml-opacity:0.96;
+    -moz-border-radius:8px; 
+    -webkit-border-radius:8px; 
+    -khtml-border-radius:8px;
+    font:normal; 
+    font-size:10px;
+}
+
+#lobbyAccordion
+{
+    position: absolute;
+    z-index:100;
+    left:365px;
+    top:21px;
+    width:440px;
+    min-height:80px;
+    margin:0px;
+    background: #272725;  
+    padding:3px; 
+    color: #fff; 
+    font-weight: bold; 
+    border: 0px solid #272725;
+    opacity:0.9; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity:0.9;
+    -moz-border-radius:8px; 
+    -webkit-border-radius:8px; 
+    -khtml-border-radius:8px;
+    font:normal; 
+    font-size:10px;
+}
+
+.accordionContent
+{ 
+    margin: 0; 
+    background: #272725;  
+    padding: 2px; 
+    color: Yellow; 
+    font-weight: bold; 
+    border: 0px solid #272725;
+    font:normal; 
+    font-size:11px;
+}
+
+.accordionHeader
+{ 
+    margin: 0; 
+    background: #fff;  
+    padding: 3px; 
+    border: 1px solid #272725;
+    color: #272725; 
+    font-weight: bold; 
+    font:normal; 
+    font-size:14px;
+    -khtml-border-radius:8px;
+    -moz-border-radius:8px; 
+    -webkit-border-radius:8px; 
+}
+
+.accordionHeader a
+{
+    color: #272725; 
+    text-decoration: none;
+}
+
+.accordionContent a
+{
+    color: #034af3;
+    cursor: hand;
+}
+
+.loginButton  
+{
+    height:24px; 
+    width:50px; 
+    font-size:12px; 
+    font-variant:small-caps; 
+    line-height:9px; 
+    background-color:#FE3; 
+    border: 1px solid #eee;
+    padding: 0px 2px 4px 1px; 
+    margin:7px 2px -2px 2px; 
+    overflow:hidden; 
+    cursor:pointer; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -khtml-border-radius:5px;
+}
+
+.imageButton  
+{
+    vertical-align:middle;
+    padding:0px;
+    margin:0px; 
+    cursor:pointer; 
+}
+
+.uploadLabel
+{
+    vertical-align:text-top;
+    font-size:14px; 
+    font-weight:bolder;
+    font-variant:small-caps; 
+    background-color:transparent; 
+    padding:0px 0px 0px 1px;
+    margin:0px; 
+    overflow:hidden; 
+    -moz-border-radius:2px; 
+    -webkit-border-radius:2px; 
+    -khtml-border-radius:2px;
+}
+
+.white
+{
+    color:White;
+}
+ 
+.black
+{
+    color:Black;
+}
+
+.upload
+{
+    width:250px;
+    vertical-align:text-top;
+    font-size:14px; 
+    font-weight:bolder;
+    font-variant:small-caps; 
+    background-color:transparent; 
+    padding:0px;
+    margin:0px; 
+    overflow:hidden; 
+}
+
+.chatSep
+{
+    vertical-align:middle;
+    width:20px; 
+    font-size:12px; 
+    color:#0fa190;
+    line-height:12px; 
+    background-color:#262261; 
+    border: 1px solid #8e20bf;
+    padding: 4px 0px 0px 0px; 
+    margin: 2px; 
+    overflow:hidden; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -khtml-border-radius:5px;
+}
+
+.hover-chatButton 
+{
+    background-color: #006; 
+    color:#FFF 
+}
+
+#thinChatLine
+{ 
+    margin: 0px 0px -5px 0px ;
+    font-size:12px; 
+    line-height:10px;
+}
+
+.hidden
+{   
+    display:none;
+}
+
+.loginDisplay
+{
+    position:absolute;
+    width:100px; 
+    text-align: center;
+    left:480px; 
+    bottom:3px;
+    font-size:9px;
+    background-color:#d5d5d5;
+    color:#000;
+    padding: 1px;
+    opacity:0.8; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
+    -moz-opacity:0.8;
+    -khtml-opacity:0.8;
+    -khtml-border-radius:4px;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    z-index:1800;
+}
+
+.loginDisplay a:link
+{
+    color: 034af3;
+}
+
+.loginDisplay a:visited
+{
+    color: 034af3;
+}
+
+.loginDisplay a:hover
+{
+    color: 1d60ff;
+}
+
+.loginLabel
+{
+    text-align:left;
+}
+
+.loginText
+{
+    text-align:left;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.successNotification
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3cac7a;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: center;
+    padding-right: 10px;
+}
+
+.centeredButton
+{
+    text-align: center;
+}
+
+#skipIntro
+{
+    position:absolute;
+    width:60px;
+    text-align:center;
+    right:2px;
+    bottom:2px;
+    font-size:9px;
+    background-color:#d5d5d5;
+    padding: 1px;
+    cursor: hand;
+    opacity:0.85; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85); 
+    -moz-opacity:0.85;
+    -khtml-opacity:0.85;
+    -khtml-border-radius:4px;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    z-index:1800;
+}
+
+/* LEGAL
+----------------------------------------------------------*/
+#PrivacyPolicy
+{
+    position:absolute;
+    width:90px;
+    text-align:center;
+    left: 720px; 
+    bottom: 3px; 
+    font-size:9px;
+    background-color:#d5d5d5;
+    padding: 1px;
+    opacity:0.8; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
+    -moz-opacity:0.8;
+    -khtml-opacity:0.8;
+    -khtml-border-radius:4px;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    z-index:1800;
+}
+
+#TermsConditions
+{
+    position:absolute;
+    width:100px;
+    text-align:center;
+    left: 600px; 
+    bottom: 3px; 
+    font-size:9px;
+    background-color:#d5d5d5;
+    padding: 1px;
+    opacity:0.8; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
+    -moz-opacity:0.8;
+    -khtml-opacity:0.8;
+    -khtml-border-radius:4px;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    z-index:1800;
+}
+
+#bodyOfText
+{ 
+    overflow-y: scroll; 
+    border:2px; 
+    border-color:#00F;
+    width:500px; 
+    height:400px; 
+    font: 1.4em/1.4 tahoma, verdana, arial, helvetica, sans-serif; 
+    color: #333; 
+}
+
+#explainText
+{  
+    font: tahoma, verdana, arial, helvetica, sans-serif; 
+    color: #333;  
+    margin: 0; 
+    padding: 0; 
+    font-size:10px; 
+    font-style:normal;
+    font-weight:bold;
+}
+
+.sectionOuter 
+{ 
+    position:absolute; 
+    left:470px;
+    top: 20px; 
+    margin:auto; 
+    width: 500px; 
+    height: 535px; 
+    background: #fff ; 
+    padding: 10px; 
+    opacity:0.9; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90); 
+    -moz-opacity:0.9;
+    -khtml-opacity:0.9;
+    -khtml-border-radius:7px;
+    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px; 
+    display: none;
+    z-index:28000;
+}
+
+section 
+{
+    position:relative; 
+    left:0px;
+    top:0px;  
+    margin:auto; 
+    width:480px; 
+    height:525px; 
+    background:#fff ; 
+    font: 0.625em/1.4 tahoma, verdana, arial, helvetica, sans-serif; 
+    color: #333; 
+}
+
+section h1, h2, h3, h4, h5, h6, p 
+{ 
+    margin: 0; 
+    padding: 0; 
+}
+
+section h1
+{ 
+    font-weight: normal; 
+    color: #666; 
+    font: 3.2em/1.4 georgia, 'times new roman', times, serif; 
+    margin: 0.2em 0 0; 
+    line-height: 1; 
+}
+
+section h2
+{ 
+    font-weight: normal; 
+    color: #666; 
+    font: 2.4em/1.4 georgia, 'times new roman', times, serif; 
+    margin: 0.2em 0;
+}
+
+#IntroBlackBackdrop 
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:32px;
+	top:0px;
+	z-index:1001;
+	background-color:#000
+}
+
+#UserImageHolder 
+{ 
+    display:block;
+    position:relative; 
+    width:75px; 
+    height:58px; 
+    left:0px; 
+    top:0px; 
+    padding:0px;
+    z-index:10; 
+    background-image: url(../Images/Labels/miniBadge.gif); 
+    overflow: hidden; 
+    color:#fff; 
+}
+
+#UserImage
+{ 
+    position:relative; 
+    width:67px; 
+    height:50px;
+    padding:2px 0px 0px 0px;
+}
+
+.imageText 
+{ 
+    width:146px;
+    height:30px;
+    background-color:transparent;
+    color:#fff;
+    margin:0px;
+    padding:0px 16px 0px 12px;
+    border:0;
+    background-image:url('../Images/Labels/editbox.gif'); 
+}
+
+.regLabel
+{ 
+    font-size:13px; 
+    color:#3cac7a; 
+}
+
+.green
+{
+    color:#3cac7a; 
+}
+
+.ddl {
+    color:#3cac7a; 
+	background-color:black;
+	border:1px solid #3cac7a;
+	margin:3px;
+    -khtml-border-radius:3px;
+    -moz-border-radius:3px; 
+    -webkit-border-radius:3px; 
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:12px; 
+}
+
+.ddl-sms {
+    color:White; 
+	background-color:Red;
+	border:2px inset White;
+	padding:3px;
+    -khtml-border-radius:4px;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px; 
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:12px; 
+}
+
+.select-chat {
+    color:White; 
+	background-color:transparent;
+	border:2px inset White;
+	padding:3px;
+    -khtml-border-radius:4px;
+    -moz-border-radius:4px; 
+    -webkit-border-radius:4px; 
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:12px; 
+}
+
+.closeButton 
+{
+    float:right;
+    vertical-align:middle;
+    color:transparent;
+}
+
+#orientation
+{
+    position:absolute; 
+    z-index:1; 
+    left:334px; 
+    top:226px;
+    width:512px;
+    height:288px;
+    display:block; 
+    border:2px groove Lime;
+    background-color:White;
+}
+
+/* Telerik  */
+.generalTab
+{
+	background:#fa7373;
+	width: 80px;
+	height: 30px;
+	text-decoration:none;
+	font: 14px/18px Arial;
+	color:#000 !important;
+}
+
+.membershipTab
+{
+	background:#646bf9;
+	width: 80px;
+	height: 30px;
+	text-decoration:none;
+	font: 14px/18px Arial;
+	color:#000;
+}
+	
+.photoTab
+{
+	background:#65f992;
+	width: 80px;
+	height: 30px;
+	text-decoration:none;
+	font: 14px/18px Arial;
+	color:#FFF;
+}
+
+.friendTab
+{
+	background:#fabb4d;
+	width: 80px;
+	height: 30px;
+	text-decoration:none;
+	font: 14px/18px Arial;
+	color:#FFF;
+}
+.generalTabSelected
+{
+	background:#fb0a0a;
+}
+.membershipTabSelected
+{
+	background:#0d18f9;
+}
+.photoTabSelected
+{
+	background:#14fb5a;
+}
+.friendTabSelected
+{
+	background:#faa512;
+}
+
+.generalTabHovered
+{
+	background:#f9d5d5;
+}
+.membershipTabHovered
+{
+	background:#c5c7fc;
+}
+.photoTabHovered
+{
+	background:#b8fbcd;
+}
+.friendTabHovered
+{
+	background:#f8dfb3;
+}
+
+.chat
+{
+	list-style: none;
+	margin:0;
+	padding: 0;
+    color: Black;
+}
+.chat li
+{
+	padding: 5px 0px;
+}
+
+.exampleWrapper
+{
+	width: 435px;
+	height: 483px;
+	background: transparent url(images/background.gif) no-repeat left top;
+	position:relative;
+}
+
+.preferences
+{
+    color: Black;
+    margin:2px;
+}
+
+.interests
+{
+    width:150px;
+}
+
+.PrefTbLabel
+{
+    display: block;
+    text-align:left;
+    width: 75px;
+}
+
+.PrefCbLabel
+{
+    margin: 0 4px 0 0 !important;
+    padding: 0 !important;
+    display: inline-block;
+    width: 75px;
+  
+}
+
+.PrefCbLabelhalfMargin
+{
+    margin: 0 4px 0 0 !important;
+    padding: 0 !important;
+    display: inline-block;
+    width: 35px;
+  
+}
+
+.PrefTextBox, .PrefEmptyTextBox, .PrefEnabledTextBox, .PrefHoveredTextBox, .PrefFocusedTextBox, .PrefInvalidTextBox, .PrefNegativeTextBox, .PrefComboBox
+{
+    border-width: 2px;
+    border-color: #a9c9a9;
+    font: 14px/18px arial,sans-serif;
+    margin-bottom:3px;
+}
+
+.PrefEmptyTextBox
+{
+    color: #999;
+}
+
+.PrefEnabledTextBox
+{
+}
+
+.PrefHoveredTextBox
+{
+    border-color: #6c6;
+    background: #efe;
+}
+
+.PrefFocusedTextBox
+{
+    border-color: #3a3;
+    background: #efe;
+}
+
+.PrefInvalidTextBox
+{
+    border-color: #f33;
+    background: none #ff9;
+}
+
+.PrefNegativeTextBox
+{
+    color: #930;
+    font-weight: bold;
+}
+.chatBtn
+{
+    border: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-left: 3px;
+    float: left;
+}
+.chatWrapper
+{
+    background-color: #bfd447;
+    width:370px;
+    height:370px;
+    margin:10px;
+}
+#chatField
+{
+    left:50px;
+    top:10px;
+    height: 250px;
+    width: 350px;
+    border: 0px;
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666666;
+    background-color:#EEE;
+    overflow: auto;
+}
+#chatFeed
+{
+    height: 30px;
+    left:50px;
+    width: 344px;
+    font-family: Arial, Verdana, Sans-Serif;
+    color: #666666;
+    overflow: auto;
+    border: 0px;
+}
+.toolBar
+{
+    width: 350px;
+    height: 27px;
+    background-color: #bfd447;
+    position: relative;
+    top: -1px;
+}
+#statusBar
+{
+    float: left;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 5px;
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #666666;
+}
+.details
+{
+    width: 100%;
+    height: 90%;
+}
+.details ul
+{
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.details ul label
+{
+    font-weight: bold;
+}
+.photo-container
+{
+    padding: 10px;
+    width: 120px;
+    float: left;
+}
+.data-container
+{
+    height: 90%;
+    width: auto;
+}
+
+.skin-chooser
+{
+	position: absolute;
+    left:75px; 
+    bottom:1px;
+	cursor: default;
+	color: #fff;
+    font-weight: bold;
+    z-index:18000;
+}
+
+.RadMenu .skinLabel
+{
+	vertical-align: middle;
+}
+
+.rotWrapper
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+    font-family: Arial;
+    padding: 0;
+    width: 100%;
+    font: 14px 'Segoe UI' , Arial, Sans-serif;
+    color: #000;
+}
+        
+.RemoveRotatorBorder div.rrClipRegion
+{
+    /* The following style removes the border of the rotator that is applied to the items wrapper DIV of the control by default, in case the control renders buttons.
+    In case you want to removed this border, you can safely use this CSS selector. */
+    border: 0px none;
+}
+
+.ImagesRotator
+{
+	position:absolute;
+    top: 15px;
+	z-index:20000;
+}
+
+.name
+{
+    position: relative;
+    top: 0px;
+    left: 32%;
+    font: 14px 'Segoe UI' , Arial, Sans-serif;
+    color: #9EDA29;
+}

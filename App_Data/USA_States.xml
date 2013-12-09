@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item Value="AL" Text="Alabama" />
+  <Item Value="AK" Text="Alaska" />
+  <Item Value="AZ" Text="Arizona" />
+  <Item Value="AR" Text="Arkansas" />
+  <Item Value="CA" Text="California" />
+  <Item Value="CO" Text="Colorado" />
+  <Item Value="CT" Text="Connecticut" />
+  <Item Value="DE" Text="Delaware" />
+  <Item Value="DC" Text="District of Columbia" />
+  <Item Value="FL" Text="Florida" />
+  <Item Value="GA" Text="Georgia" />
+  <Item Value="HI" Text="Hawaii" />
+  <Item Value="ID" Text="Idaho" />
+  <Item Value="IL" Text="Illinois" />
+  <Item Value="IN" Text="Indiana" />
+  <Item Value="IA" Text="Iowa" />
+  <Item Value="KS" Text="Kansas" />
+  <Item Value="KY" Text="Kentucky" />
+  <Item Value="LA" Text="Louisiana" />
+  <Item Value="ME" Text="Maine" />
+  <Item Value="MD" Text="Maryland" />
+  <Item Value="MA" Text="Massachusetts" />
+  <Item Value="MI" Text="Michigan" />
+  <Item Value="MN" Text="Minnesota" />
+  <Item Value="MS" Text="Mississippi" />
+  <Item Value="MO" Text="Missouri" />
+  <Item Value="MT" Text="Montana" />
+  <Item Value="NE" Text="Nebraska" />
+  <Item Value="NV" Text="Nevada" />
+  <Item Value="NH" Text="New Hampshire" />
+  <Item Value="NJ" Text="New Jersey" />
+  <Item Value="NM" Text="New Mexico" />
+  <Item Value="NY" Text="New York" />
+  <Item Value="NC" Text="North Carolina" />
+  <Item Value="ND" Text="North Dakota" />
+  <Item Value="OH" Text="Ohio" />
+  <Item Value="OK" Text="Oklahoma" />
+  <Item Value="OR" Text="Oregon" />
+  <Item Value="PA" Text="Pennsylvania" />
+  <Item Value="RI" Text="Rhode Island" />
+  <Item Value="SC" Text="South Carolina" />
+  <Item Value="SD" Text="South Dakota" />
+  <Item Value="TN" Text="Tennessee" />
+  <Item Value="TX" Text="Texas" />
+  <Item Value="UT" Text="Utah" />
+  <Item Value="VT" Text="Vermont" />
+  <Item Value="VA" Text="Virginia" />
+  <Item Value="WA" Text="Washington" />
+  <Item Value="WV" Text="West Virginia" />
+  <Item Value="WI" Text="Wisconsin" />
+  <Item Value="WY" Text="Wyoming" />
+</Items>

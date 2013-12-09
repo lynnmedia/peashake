@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item Value="1" Text="Afghanistan" />
+  <Item Value="2" Text="Albania" />
+  <Item Value="3" Text="Algeria" />
+  <Item Value="4" Text="American Samoa" />
+  <Item Value="5" Text="Andorra" />
+  <Item Value="6" Text="Angola" />
+  <Item Value="7" Text="Anguilla" />
+  <Item Value="8" Text="Antarctica" />
+  <Item Value="9" Text="Antigua and Barbuda" />
+  <Item Value="10" Text="Argentina" />
+  <Item Value="11" Text="Armenia" />
+  <Item Value="12" Text="Aruba" />
+  <Item Value="13" Text="Australia" />
+  <Item Value="14" Text="Austria" />
+  <Item Value="15" Text="Azerbaidjan" />
+  <Item Value="16" Text="Bahamas" />
+  <Item Value="17" Text="Bahrain" />
+  <Item Value="18" Text="Bangladesh" />
+  <Item Value="19" Text="Barbados" />
+  <Item Value="20" Text="Belarus" />
+  <Item Value="21" Text="Belgium" />
+  <Item Value="22" Text="Belize" />
+  <Item Value="23" Text="Benin" />
+  <Item Value="24" Text="Bermuda" />
+  <Item Value="25" Text="Bolivia" />
+  <Item Value="26" Text="Bosnia-Herzegovina" />
+  <Item Value="27" Text="Botswana" />
+  <Item Value="28" Text="Bouvet Island" />
+  <Item Value="29" Text="Brazil" />
+  <Item Value="30" Text="Brit. Indian O. Terr." />
+  <Item Value="31" Text="Brunei Darussalam" />
+  <Item Value="32" Text="Bulgaria" />
+  <Item Value="33" Text="Burkina Faso" />
+  <Item Value="36" Text="Cambodia" />
+  <Item Value="37" Text="Cameroon" />
+  <Item Value="38" Text="Canada" />
+  <Item Value="39" Text="Cape Verde" />
+  <Item Value="40" Text="Cayman Islands" />
+  <Item Value="41" Text="Central African Rep." />
+  <Item Value="42" Text="Chad" />
+  <Item Value="43" Text="Chile" />
+  <Item Value="44" Text="China" />
+  <Item Value="47" Text="Colombia" />
+  <Item Value="48" Text="Comoros" />
+  <Item Value="50" Text="Cook Islands" />
+  <Item Value="51" Text="Costa Rica" />
+  <Item Value="52" Text="Croatia" />
+  <Item Value="53" Text="Cuba" />
+  <Item Value="54" Text="Cyprus" />
+  <Item Value="55" Text="Czech Republic" />
+  <Item Value="56" Text="Czechoslovakia" />
+  <Item Value="57" Text="Denmark" />
+  <Item Value="59" Text="Dominica" />
+  <Item Value="60" Text="Dominican Rep." />
+  <Item Value="61" Text="East Timor" />
+  <Item Value="62" Text="Ecuador" />
+  <Item Value="63" Text="Egypt" />
+  <Item Value="64" Text="El Salvador" />
+  <Item Value="66" Text="Estonia" />
+  <Item Value="67" Text="Ethiopia" />
+  <Item Value="69" Text="Faroe Islands" />
+  <Item Value="70" Text="Fiji" />
+  <Item Value="71" Text="Finland" />
+  <Item Value="73" Text="France" />
+  <Item Value="72" Text="France (Euro Terr.)" />
+  <Item Value="74" Text="French S. Terr." />
+  <Item Value="76" Text="Gambia" />
+  <Item Value="77" Text="Georgia" />
+  <Item Value="78" Text="Germany" />
+  <Item Value="79" Text="Ghana" />
+  <Item Value="80" Text="Gibraltar" />
+  <Item Value="82" Text="Greece" />
+  <Item Value="83" Text="Greenland" />
+  <Item Value="84" Text="Grenada" />
+  <Item Value="85" Text="Guadeloupe (Fr.)" />
+  <Item Value="86" Text="Guam (US)" />
+  <Item Value="87" Text="Guatemala" />
+  <Item Value="91" Text="Guyana" />
+  <Item Value="92" Text="Haiti" />
+  <Item Value="94" Text="Honduras" />
+  <Item Value="95" Text="Hong Kong" />
+  <Item Value="96" Text="Hungary" />
+  <Item Value="97" Text="Iceland" />
+  <Item Value="98" Text="India" />
+  <Item Value="99" Text="Indonesia" />
+  <Item Value="100" Text="Iran" />
+  <Item Value="101" Text="Iraq" />
+  <Item Value="102" Text="Ireland" />
+  <Item Value="231" Text="Islamabad" />
+  <Item Value="103" Text="Israel" />
+  <Item Value="104" Text="Italy" />
+  <Item Value="105" Text="Ivory Coast" />
+  <Item Value="106" Text="Jamaica" />
+  <Item Value="107" Text="Japan" />
+  <Item Value="108" Text="Jordan" />
+  <Item Value="109" Text="Kazachstan" />
+  <Item Value="110" Text="Kenya" />
+  <Item Value="111" Text="Kirgistan" />
+  <Item Value="114" Text="Korea (South)" />
+  <Item Value="115" Text="Kuwait" />
+  <Item Value="116" Text="Laos" />
+  <Item Value="117" Text="Latvia" />
+  <Item Value="118" Text="Lebanon" />
+  <Item Value="119" Text="Lesotho" />
+  <Item Value="120" Text="Liberia" />
+  <Item Value="122" Text="Liechtenstein" />
+  <Item Value="123" Text="Lithuania" />
+  <Item Value="124" Text="Luxembourg" />
+  <Item Value="125" Text="Macau" />
+  <Item Value="229" Text="Macedonia" />
+  <Item Value="126" Text="Madagascar" />
+  <Item Value="127" Text="Malawi" />
+  <Item Value="128" Text="Malaysia" />
+  <Item Value="129" Text="Maldives" />
+  <Item Value="131" Text="Malta" />
+  <Item Value="133" Text="Martinique (Fr.)" />
+  <Item Value="135" Text="Mauritius" />
+  <Item Value="136" Text="Mexico" />
+  <Item Value="138" Text="Moldavia" />
+  <Item Value="139" Text="Monaco" />
+  <Item Value="140" Text="Mongolia" />
+  <Item Value="228" Text="Montenegro" />
+  <Item Value="142" Text="Morocco" />
+  <Item Value="143" Text="Mozambique" />
+  <Item Value="144" Text="Myanmar" />
+  <Item Value="145" Text="Namibia" />
+  <Item Value="147" Text="Nepal" />
+  <Item Value="148" Text="Netherland Antilles" />
+  <Item Value="149" Text="Netherlands" />
+  <Item Value="151" Text="New Caledonia (Fr.)" />
+  <Item Value="152" Text="New Zealand" />
+  <Item Value="153" Text="Nicaragua" />
+  <Item Value="155" Text="Nigeria" />
+  <Item Value="156" Text="Niue" />
+  <Item Value="157" Text="Norfolk Island" />
+  <Item Value="158" Text="N. Mariana Isl." />
+  <Item Value="159" Text="Norway" />
+  <Item Value="160" Text="Oman" />
+  <Item Value="161" Text="Pakistan" />
+  <Item Value="162" Text="Palau" />
+  <Item Value="163" Text="Panama" />
+  <Item Value="164" Text="Papua New Guinea" />
+  <Item Value="165" Text="Paraguay" />
+  <Item Value="166" Text="Peru" />
+  <Item Value="167" Text="Philippines" />
+  <Item Value="168" Text="Pitcairn" />
+  <Item Value="169" Text="Poland" />
+  <Item Value="170" Text="Polynesia (Fr.)" />
+  <Item Value="171" Text="Portugal" />
+  <Item Value="172" Text="Puerto Rico (US)" />
+  <Item Value="173" Text="Qatar" />
+  <Item Value="175" Text="Romania" />
+  <Item Value="176" Text="Russian Federation" />
+  <Item Value="178" Text="Saint Lucia" />
+  <Item Value="181" Text="Saudi Arabia" />
+  <Item Value="182" Text="Senegal" />
+  <Item Value="227" Text="Serbia" />
+  <Item Value="183" Text="Seychelles" />
+  <Item Value="184" Text="Sierra Leone" />
+  <Item Value="185" Text="Singapore" />
+  <Item Value="186" Text="Slovak Republic" />
+  <Item Value="187" Text="Slovenia" />
+  <Item Value="189" Text="Somalia" />
+  <Item Value="190" Text="South Africa" />
+  <Item Value="191" Text="South Korea" />
+  <Item Value="193" Text="Spain" />
+  <Item Value="194" Text="Sri Lanka" />
+  <Item Value="196" Text="St. Pierre and Miquelon" />
+  <Item Value="198" Text="St.Kitts  Anguilla" />
+  <Item Value="199" Text="St.Vinc. and Grenadine" />
+  <Item Value="200" Text="Sudan" />
+  <Item Value="201" Text="Suriname" />
+  <Item Value="203" Text="Swaziland" />
+  <Item Value="204" Text="Sweden" />
+  <Item Value="205" Text="Switzerland" />
+  <Item Value="206" Text="Syria" />
+  <Item Value="207" Text="Tadjikistan" />
+  <Item Value="208" Text="Taiwan" />
+  <Item Value="209" Text="Tanzania" />
+  <Item Value="210" Text="Thailand" />
+  <Item Value="211" Text="Togo" />
+  <Item Value="212" Text="Tokelau" />
+  <Item Value="213" Text="Tonga" />
+  <Item Value="214" Text="Trinidad and Tobago" />
+  <Item Value="215" Text="Tunisia" />
+  <Item Value="216" Text="Turkey" />
+  <Item Value="217" Text="Turkmenistan" />
+  <Item Value="218" Text="Turks and Caicos Isles" />
+  <Item Value="221" Text="Uganda" />
+  <Item Value="222" Text="Ukraine" />
+  <Item Value="223" Text="United Arab Emirates" />
+  <Item Value="220" Text="US Minor outlying Isl." />
+  <Item Value="224" Text="United Kingdom" />
+  <Item Value="225" Text="United States" Selected="true" />
+  <Item Value="230" Text="Venezuela" />
+</Items>

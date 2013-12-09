@@ -1,0 +1,17 @@
+﻿            StringBuilder csText = new StringBuilder();
+            csText.Append("<script type=\"text/javascript\">");
+            csText.Append("client.subscribe({");
+            csText.Append("channel: chatChannel,");
+            csText.Append("onSuccess: function (args) {");
+            csText.Append("console.log('Subscribed:' + chatChannel);");
+            csText.Append("},");
+            csText.Append("onFailure: function (args) {");
+            csText.Append("console.log('Subscribe failed: ' + args.error);");
+            csText.Append("},");
+            csText.Append("onReceive: function (args) {");
+            csText.Append("console.log('Received data: ' + args.data.text);");
+            csText.Append("console.log('on: ' + args.data.chatId);");
+            csText.Append("displayChatMessage(args.data.from, args.data.text, args.data.chatId);");
+            csText.Append("}");
+            csText.Append("});");
+            csText.Append("</script>");

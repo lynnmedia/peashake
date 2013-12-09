@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%@ Register Namespace="HelpDesk" TagPrefix="helpDesk" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title>Preferences</title>
+	<link href="Styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<form id="form1" runat="server">
+		<telerik:RadScriptManager runat="server" EnableCdn="true" ID="RadScriptManager1" />
+		<telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="Default,Zone" />
+		<telerik:RadSplitter runat="Server" ID="RadSplitter1" Width="100%" BorderSize="0"
+			BorderStyle="None" PanesBorderSize="0" Height="100%" Orientation="Horizontal" VisibleDuringInit="false">
+			<telerik:RadPane ID="topPane" runat="server" Height="25px">
+				<telerik:RadMenu runat="Server" ID="RadMenu1" EnableShadows="true" EnableRoundedCorners="true"
+								 Style="float: none; position:absolute; top:0px; z-index:2000" Width="100%">
+					<Items>
+						<telerik:RadMenuItem runat="server" Text="File">
+							<Items>
+								<telerik:RadMenuItem Text="Print" Enabled="false" ImageUrl="~/Images/print.gif" />
+								<telerik:RadMenuItem IsSeparator="true" />
+								<telerik:RadMenuItem Text="Exit" Enabled="false" />
+							</Items>
+						</telerik:RadMenuItem>
+						<telerik:RadMenuItem runat="server" Text="Edit">
+							<Items>
+								<telerik:RadMenuItem Text="Copy" Enabled="false" ImageUrl="~/Images/copy.gif" />
+								<telerik:RadMenuItem Text="Paste" Enabled="false" ImageUrl="~/Images/paste.gif" />
+								<telerik:RadMenuItem IsSeparator="true" />
+								<telerik:RadMenuItem Text="Delete" Enabled="false" ImageUrl="~/Images/delete.gif" />
+							</Items>
+						</telerik:RadMenuItem>
+						<telerik:RadMenuItem runat="server" Text="Go">
+						<Items>
+							<telerik:RadMenuItem Text="Profile" ImageUrl="~/Images/contacts.gif" NavigateUrl="UserProfile.aspx" />
+							<telerik:RadMenuItem Text="Friends" ImageUrl="~/Images/contacts.gif" NavigateUrl="Friends.aspx" />
+							<telerik:RadMenuItem Text="Messages" ImageUrl="~/Images/inbox.gif" NavigateUrl="Messages.aspx" />
+							<telerik:RadMenuItem Text="Notices" ImageUrl="~/Images/notes.gif" NavigateUrl="Notices.aspx" />
+							<telerik:RadMenuItem Text="Schedule" ImageUrl="~/Images/calendar.gif" NavigateUrl="Schedule.aspx" />
+						</Items>
+						</telerik:RadMenuItem>
+						<telerik:RadMenuItem Text="Help">
+							<Items>
+								<telerik:RadMenuItem Text="Browse online help" ImageUrl="~/Images/help.png" NavigateUrl="http://www.peashakehouse.com/help/" Target="_blank" />
+							</Items>
+						</telerik:RadMenuItem>
+					</Items>
+				</telerik:RadMenu>
+			</telerik:RadPane>
+			<telerik:RadPane runat="server" ID="contentPane" Scrolling="none">
+				<telerik:RadSplitter runat="server" ID="RadSplitter2" BorderStyle="None" PanesBorderSize="0">
+					<telerik:RadPane runat="Server" ID="leftPane" Width="240px" MinWidth="200" MaxWidth="400" Scrolling="None">
+						<telerik:RadSplitter runat="server" ID="RadSplitter3" BorderStyle="None" PanesBorderSize="0"
+							Height="100%" Orientation="Horizontal">
+							<telerik:RadPane runat="server" ID="topLeftPane">
+								<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+								</asp:ContentPlaceHolder>
+							</telerik:RadPane>
+							<telerik:RadSplitBar runat="server" ID="RadSplitBar3" CollapseMode="Backward" EnableResize="false" />
+							<telerik:RadPane runat="server" ID="bottomLeftPane" Height="150px">
+								<telerik:RadPanelBar runat="server" ID="RadPanelBar1" Width="100%">
+									<Items>
+										<telerik:RadPanelItem Text="Profile" ImageUrl="~/Images/contacts_big.gif" NavigateUrl="UserProfile.aspx" />
+										<telerik:RadPanelItem Text="Friends" ImageUrl="~/Images/contacts_big.gif" NavigateUrl="Friends.aspx" />
+										<telerik:RadPanelItem Text="Messages" ImageUrl="~/Images/inbox_big.gif" NavigateUrl="Messages.aspx" />
+										<telerik:RadPanelItem Text="Notices" ImageUrl="~/Images/notes_big.gif" NavigateUrl="Notices.aspx" />
+										<telerik:RadPanelItem Text="Schedule" ImageUrl="~/Images/calendar_big.gif" NavigateUrl="Schedule.aspx" />
+									</Items>
+								</telerik:RadPanelBar>
+							</telerik:RadPane>
+						</telerik:RadSplitter>
+					</telerik:RadPane>
+					<telerik:RadSplitBar runat="server" ID="RadSplitBar1" CollapseMode="Forward" />
+					<telerik:RadPane runat="Server" ID="rightPane" CssClass="right-pane" Scrolling="None">
+                        <asp:Panel ID="PanelContentPlaceHolder2" runat="server">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                        </asp:Panel>
+					</telerik:RadPane>
+				</telerik:RadSplitter>
+			</telerik:RadPane>
+		</telerik:RadSplitter>
+	</form>
+</body>
+</html>
